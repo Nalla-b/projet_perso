@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet"> 
+        <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5e09a246d4.js"></script>s
+    <title>Auto Systeme</title>
+    <style>
+            * {
+                box-sizing: border-box;
+            }
+        </style>
+</head>
+<body class="project__body">
+        <div class="project__container">
+    <header class="project__header">
+        <img class="project__logo" src="img/logo-auto.png">
+        <nav class="project__nav">
+            <a href="index.html"><i class="fas fa-home"></i> ACCUEIL</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i> CONTACT</a>
+            <a href="paiement.html"><i class="fas fa-shopping-cart"></i> PAIEMENT</a>
+        </nav>
+    </header>
+    <main class="project__main">
+        <div class="project__container--one">
+            <section class="project__section">
+                <h1>Qui sommes-nous ?</h1>
+                    <p class="project__section--text">Notre spécialité est la vente de pièces détachées automobiles d'occasion.
+                            Présents à Billy-Montigny ainsi qu'a Bruay-la-Buissière (Cass' 62), notre équipe d'une vingtaine de salariés, spécialistes du recyclage automobile, met à votre disposition de nombreuses pièces détachées et accessoires d'occasion de toutes marques de véhicules, démontés et contrôlés. Pour cela, nous sélectionnons et traitons chaque année environs 3.000 voitures accidentées ou hors d'usage, ce qui nous permet de répondre au mieux aux demandes et d'avoir un stock qui correspond aux attentes de nos clients.</p>
+
+                
+                        <h2>Nos services :</h2>
+                            
+                        <div class="project__container--two">
+                                <a href="#" class="project__bouton project__btn--one">Vente de pièces détachés d'occasion.</a>
+                                <a href="#" class="project__bouton project__btn--two">Vente de véhicules d'occasions/accidentés.</a>
+                                <a href="#" class="project__bouton project__btn--three">Achat , enlévements et destruction de véhicules.</a>   
+                        </div>        
+            </section>
+                <aside class="project__aside">
+                            <a href="#">Audi 18.722 - A3 1.9 TDI 110 CV</a>
+                                <img src="img/audi.png" alt="photo de Audi">
+                            <a href="#">Citroën 18.723 - C3 PLURIEL I 1.4 L</a>
+                                <img src="img/citroen.png" alt="photo de Citroën">
+                            <a href="#">Renault 18.693 - MEGANE II 1.6 L</a>  
+                                <img src="img/megane.png" alt="photo de Renault" >
+                </aside>
+        </div>
+            <div class="project__container--two">
+                <section class="project__section--second">
+            <h1>Formulaire de demande de pièce(s):</h1>
+                <p>Notre stock est en perpétuel mouvement. Si vous ne trouvez pas dans notre site la pièce recherchée, remplissez ce formulaire afin d'obtenir une réponse rapide.</p>
+                    <form action="#" method="POST">
+                    Nom:<input type="text" name="nom"><br>
+                    E-mail:*<input type="text" name="email"><br>
+                    Téléphone:*<input type="text" name="tel"><br>
+                    Ville:<input type="text" name="ville"><br>
+                    Désignation courante du véhicule(clio,XM,...):<input type="text" name="designation"><br>
+                    Immatriculation:*<input type="text" name="immat"><br>
+                    <label for="année">Année modèle:</label>
+                    <select id="année" name="année">
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                    </select><br>
+                        Essence ou Diesel,turbo,DCI,DTI,...:<input type="text" name="moteur"><br>
+                        Pièce(s) recherchée(s):<input type="text" name="pièces"><br>
+                        Précision sur couleur, 3 ou 5 portes, manuelle ou auto,...:<input type="text" name="precision"><br>
+                        Autres précisions:<input type="text" name="autres"><br>
+                        <input type="submit" value="Envoyer"><br><br>
+                        <em>* champs obligatoires - Numéro d'immatriculation obligatoire : notre système informatique relié aux données des constructeurs nous permet de trouver à coup sûr la pièce recherchée.</em>
+                </form>
+            </section>
+                <aside class="project__aside project__aside--two">
+                    <h2>LIVRAISON :</h2>
+                        <p>Expédition dans toute la France ou éventuellement livraison, nous consulter afin de connaître nos conditions et tarifs (03.21.20.66.00)</p>
+                </aside>
+        </div>
+       
+    </main>
+    <footer class="project__footer">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </footer>
+    
+</body>
+</html>
