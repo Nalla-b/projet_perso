@@ -55,7 +55,7 @@
 }
 
 .project__footer{
-    background-color:purple;
+    background-color: #e7e7e7;
     height:5em;
 }
 
@@ -90,6 +90,39 @@ a {
 .project__aside>img {
     width:16em;
     padding:4%;  
+}
+
+@media screen and (max-width:500px){
+
+    .project__container{
+        width: 100%;
+        height: auto;
+    }
+
+    .project__section{
+        width:100%;
+        margin-left: 0px;
+        margin-top: 5px;
+        height: auto;
+        line-height: -4%;
+        background-color: #e7e7e7;
+    }
+
+    .project__container--one{
+        display:inline;
+    }
+
+    .project__aside{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        margin-right: 0px;
+        background-color: #e7e7e7;
+    }
+
+    .project__aside>img{
+        margin: auto;
+    }
 }
 
 
