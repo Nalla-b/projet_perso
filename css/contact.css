@@ -132,17 +132,19 @@ a {
         text-align: center;
     }
 
-    .project__aside--two{
-        position: relative;
-        width: 100vw;
-        margin-top:38em;
-    }
-
     .project__aside{
         display: flex;
         width:100%;
         flex-direction: column;
         margin-right: 0px;
+        height:57em;
+    }
+
+    .project__aside--two{
+        position: relative;
+        width: 100vw;
+        margin-top:38em;
+        height:auto;
     }
 
     .project__aside>img{
@@ -156,6 +158,7 @@ a {
     .project__footer{
         position: relative;
         bottom: 0px;
+        margin-top: 200px;
     }
     
 }    
@@ -201,3 +204,5 @@ a {
     .project__aside>img{
         margin: auto;
     }
+
+}
