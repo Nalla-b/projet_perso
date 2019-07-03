@@ -5,7 +5,6 @@
 
 
 .project__header{
-    background-color:white;
     height:16em;
 }
 
@@ -36,7 +35,6 @@
     padding: 1%;
     margin-left:80px;
     margin-top:20px;
-    border: inset 1px lightgray;
     border-radius:13px;                
 }
 
@@ -54,7 +52,6 @@
     flex-direction: column;
     position: relative;
     padding:2%;
-    border: inset 1px lightgray;
     border-radius:13px; 
 }
 
@@ -75,7 +72,6 @@
     margin-right:3em;
     text-align: center;
     margin-top: 20px;
-    border: inset 1px lightgray;
     border-radius:13px;
     font-size: 1em;
 }
@@ -85,6 +81,7 @@
     height:15em;
     font-size: 1.1em;
     padding: 2%;
+    margin-right: 2.5em;
 }
 
 .project__footer{
@@ -127,15 +124,15 @@ a {
 
 a.project__bouton{
     padding: 45px 25px; 
-    background:grey; 
+    background-color:grey; 
     color: white;
     display: flex;
     justify-content: space-around;
 }
 
-.project__bouton>a:hover{
+a.project__bouton:hover{
     background-color:black;
-    transition: 2.5s;
+    transition: all 3s;
 }
 
 .project__btn--one,.project__btn--two,.project__btn--three{
@@ -145,7 +142,6 @@ a.project__bouton{
     border: 1px solid white ;
     border-radius: 1em;
     text-align: center;
-
 }
 
 .project__container--two {
@@ -162,7 +158,8 @@ a.project__bouton{
 
     .project__section{
         background-color: #e7e7e7;
-        margin: 0 auto;
+        margin-left: 0px;
+        margin-right: 0px;
         width: 100%;
         height:auto;
     }
@@ -222,5 +219,43 @@ a.project__bouton{
         margin-top: 0px;
     }
 
+
+}
+
+@media screen and (min-width:500px) and (max-width:1500px){
+
+    .project__container{
+        width: 100%;
+        height: auto;
+    }
+
+    .project__section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .project__aside{
+        width: 70vw;
+        margin:auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project__section--second{
+        width: 100vw;
+        margin-top: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .project__aside--two{
+        height: auto;
+        margin-top: -60px;
+    }
+
+    .project__aside>img{
+        margin: auto;
+    }
 
 }

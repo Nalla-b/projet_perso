@@ -18,7 +18,11 @@
 <body class="project__body">
         <div class="project__container">
     <header class="project__header">
-        <img class="project__logo" src="img/logo-auto.png">
+        <picture>
+            <source srcset="img/logo-auto-mini.png"
+                media="(max-width:500px)">
+                <img class="project__logo" src="img/logo-auto.png">
+        </picture>
         <nav class="project__nav">
             <a href="index.html"><i class="fas fa-home"></i> ACCUEIL</a>
             <a href="contact.html"><i class="fas fa-envelope"></i> CONTACT</a>
@@ -26,7 +30,6 @@
         </nav>
     </header>
     <main class="project__main">
-        <div class="project__container--one">
         <section class="project__section">
             <h2>Paiement en ligne - Moyens de réglement :</h2>
             <p><strong>Comment faire vos achats ?</strong><br><br>
@@ -50,19 +53,7 @@
                         </ul>
                         <p><strong>Pour les particuliers et uniquement pour les pièces détachées:</strong><br><br>
                                 De 100€ à 2300€ possibilité de paiement en 3 ou 4 fois sans frais (achat à régler sur place dans nos locaux) avec CB en relief, RIB et pièce d'identité au même nom (à transmettre par mail à autosysteme62@orange.fr) </p>
-            
-
-
-        </section>
-                <aside class="project__aside">
-                            <a href="#">Audi 18.722 - A3 1.9 TDI 110 CV</a>
-                                <img src="img/audi.png" alt="photo de Audi">
-                            <a href="#">Citroën 18.723 - C3 PLURIEL I 1.4 L</a>
-                                <img src="img/citroen.png" alt="photo de Citroën">
-                            <a href="#">Renault 18.693 - MEGANE II 1.6 L</a>  
-                                <img src="img/megane.png" alt="photo de Renault" >
-                </aside>
-        </div>
+            </section>
        
     </main>
     <footer class="project__footer">

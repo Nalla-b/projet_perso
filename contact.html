@@ -19,7 +19,11 @@
 <body class="project__body">
         <div class="project__container">
     <header class="project__header">
-        <img class="project__logo" src="img/logo-auto.png">
+            <picture>
+                    <source srcset="img/logo-auto-mini.png"
+                        media="(max-width:500px)">
+                        <img class="project__logo" src="img/logo-auto.png">
+                </picture>
         <nav class="project__nav">
             <a href="index.html"><i class="fas fa-home"></i> ACCUEIL</a>
             <a href="contact.html"><i class="fas fa-envelope"></i> CONTACT</a>
@@ -62,8 +66,9 @@
                                 <li>le samedi : de 9h à 12h et de 14h à 17h30</li>
                             </ul>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.2466311910129!2d2.5823794333411474!3d50.49745934497425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd1817af721f59%3A0x43d81e69152b0a8b!2s2100+Rue+de+la+Lib%C3%A9ration%2C+62700+Bruay-la-Buissi%C3%A8re!5e0!3m2!1sfr!2sfr!4v1561651199440!5m2!1sfr!2sfr" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </section>
+        </section>
             <aside class="project__aside">
+                    <h2>Voitures en vente :</h2>
                 <a href="#">Audi 18.722 - A3 1.9 TDI 110 CV</a>
                   <img src="img/audi.png" alt>
                 <a href="#">Citroën 18.723 - C3 PLURIEL I 1.4 L</a>
@@ -83,12 +88,12 @@
             </aside>
                 
             
-       
+        </div>
     </main>
     <footer class="project__footer">
         <p>Lorem ipsum dolor sit amet.</p>
     </footer>
-</div>
+
     
 </body>
 </html>
