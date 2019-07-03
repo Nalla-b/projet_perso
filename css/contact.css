@@ -198,7 +198,8 @@ a {
 
     .project__footer{
         position: relative;
-        margin-top: 100px;
+        bottom: 0px;
+        margin-top: 150px;
     }
 
     .project__aside>img{
